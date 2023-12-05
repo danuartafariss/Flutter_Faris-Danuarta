@@ -26,10 +26,10 @@ class Mobil {
   void tambahMuatan(Hewan hewan) {
     if (totalMuatan() + hewan.getBerat() <= _kapasitas) {
       _muatan.add(hewan);
-      print('Hewan ${hewan.getNama()} ditambahkan ke dalam muatan mobil.');
+      print('${hewan.getNama()} ditambahkan ke dalam mobil.');
     } else {
       print(
-          'Kapasitas mobil tidak mencukupi untuk menambahkan hewan ${hewan.getNama()}.');
+          'Kapasitas mobil kurang untuk menambahkan hewan ${hewan.getNama()}.');
     }
   }
 
@@ -46,9 +46,9 @@ void main() {
   Hewan hewan1 = Hewan('Kucing', 5.5);
   print("berat ${hewan1.getNama()}= ${hewan1.getBerat()} kg");
   Hewan hewan2 = Hewan('Kerbau', 500.5);
-  print("berat ${hewan2.getBerat()} = ${hewan2.getBerat()} kg");
+  print("berat ${hewan2.getNama()} = ${hewan2.getBerat()} kg");
   Hewan hewan3 = Hewan('Sapi', 500);
-  print("berat ${hewan3.getBerat()} = ${hewan3.getBerat()} kg");
+  print("berat ${hewan3.getNama()} = ${hewan3.getBerat()} kg");
 
   Mobil mobil = Mobil(600);
   mobil.tambahMuatan(hewan1);
