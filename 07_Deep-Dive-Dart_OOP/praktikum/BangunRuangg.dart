@@ -5,9 +5,5 @@ class BangunRuang {
 
   BangunRuang(this.lebar, this.panjang, this.tinggi);
 
-  void volume(){
-
-  }
+  void volume() {}
 }
-
-class 
