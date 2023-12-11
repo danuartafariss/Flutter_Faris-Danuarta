@@ -1,0 +1,5 @@
+1. Assets merupakan merupakan file yang di bundled dan di deploy bersamaan dengan aplikasi, file seperti gambar, font, dan berkas-berkas lain yang dimasukkan ke dalam proyek dan dapat diakses oleh aplikasi Flutter. untuk menambahkan assets, di pubspec.yaml dengan mendefinisikan assets/image/"file gambar.png".
+
+2. gambar akan membuat tampilan UI menjadi lebih menarik, untuk me'load' sebuah gambar kita bisa menggunakan widget dan membutuhkan property image dengan nilai AssetImage(), dan terdapat cara lainnya dengan menggunakan method image.asset yang akan me'load' gambar yang sudah di tambahkan dan method Image.network agar mengambil gambar dari url yang ditentukan
+
+3. untuk menggunakan custom font donwload font yang di ingin digunakan, lalu  import file yg di download drop di folder font dan definisikan font pada pubspec.yaml. selain itu kita juga bisa menggunakan custom font dari package

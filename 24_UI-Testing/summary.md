@@ -1,0 +1,5 @@
+1. UI Testing merupakan pengujian dilakukan pada UI untuk memastikan apakah UI berkerja secara baik atau belum. UI testing juga disebut sebagai widget testing sehingga pengujiannya dilakukan pada widget. keuntungan dalam menggunakan widget testing kita bisa memastikan kesesuaian tampilan, memastikan interaksi UI, dan menjadi ketentuan yang harus dilakukan saat merubah widget
+
+2. Saat membuat project flutter UI Testing sudah diinstall sejak project dibuat tetapi pada materi ini kita diajrkan untuk mengisntall lagi dan menuliskan skrip UI Testing.
+
+2. Dalam Menjalankan Skrip UI Testing jalankan perintah flutter drive dengan menyertakan path ke skrip tes dan target aplikasi. Hasil dari perintah ini adalah lamanya waktu pengujian, total pengujian yang di lakukan, dan pesan pengujian berhasil, jika gagal maka terminal akan menampilkan penyebab gagalnya pengujian.

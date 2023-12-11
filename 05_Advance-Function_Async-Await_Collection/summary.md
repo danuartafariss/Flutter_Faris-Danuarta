@@ -1,0 +1,5 @@
+1. pada fungsi lanjutan terdapat Anonymous Function merupakan Fugsi yang tidak mempunyai nama atau hanya tanda kurung saja dan blok kode fungsi itu sendiri, selain itu terdapat Arrow function yang merupakan fungsi yang dalam pembuatannya hanya boleh di baris yang sama dan pengimplementasiannya menggunakan tanda gabungan yang berbentuk seperti panah, fungsi dapat mempunyai nama dan dapat juga tidak
+
+2. Async dan Await adalah konsep dalam pemrograman yang digunakan untuk menangani operasi asinkron atau tugas yang memerlukan waktu untuk menyelesaikan tanpa menghalangi eksekusi kode lainnya. pada konsep ini await akan menunggu proses Async hingga selesai dan pada konsep ini terdapat tipe data future yang membawa data return dari Async
+
+3.  Pada Collection merupakan sekumpulan data, pada collection terdapat List yang merupakan tipe data yang menyimpan elemennya secara berbaris dan index, selain itu terdapat map yang mentimpan elemennnya secara key value dimana key value berfungsi sebagai index
