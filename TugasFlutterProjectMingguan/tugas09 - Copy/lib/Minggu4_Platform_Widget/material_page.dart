@@ -18,6 +18,13 @@ class HomePage extends StatelessWidget {
         backgroundColor: Color.fromARGB(255, 99, 0, 238),
       ),
       body: ContactPage(),
+      floatingActionButton: FloatingActionButton(
+          backgroundColor: Color.fromARGB(255, 3, 218, 197),
+          onPressed: () {},
+          child: Icon(
+            Icons.add,
+            color: Colors.black,
+          )),
       bottomNavigationBar: BottomNavigationBar(
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.white70,

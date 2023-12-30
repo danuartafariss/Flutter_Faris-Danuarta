@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart'
+import 'package:flutter/material.dart';
 
 class ContactPage extends StatelessWidget {
   final List<String> kontak = ['Faris', 'Abdul', 'Udil', 'Susanti'];
